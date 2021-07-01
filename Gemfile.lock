@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.9)
+    ffi (1.15.3)
+    instana (1.203.0)
+      concurrent-ruby (>= 1.1)
+      oj (>= 3.0.11)
+      sys-proctable (>= 1.2.2)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    oj (3.11.7)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    ruby2_keywords (0.0.4)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    sys-proctable (1.2.6)
+      ffi
+    tilt (2.0.10)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  instana
+  rack
+  sinatra
+
+BUNDLED WITH
+   2.2.21
